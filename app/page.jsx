@@ -1,6 +1,13 @@
+import Dashboard from "./dashboard/page"
+import Login from "./login/page"
+
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div>Homepage
+      <Dashboard/>
+      <Login/>
+    </div>
+    
   )
 }
 
